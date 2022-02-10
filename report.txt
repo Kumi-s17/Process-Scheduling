@@ -1,0 +1,3 @@
+Makespan for parallelisable process are improved.
+The algorithm allocates a subprocess to a processor which has shorter remaining time than the average remaining time if all processes were split equally among the processors. 
+A new subprocess is created only if its remaining time is greater than two seconds after creation.
